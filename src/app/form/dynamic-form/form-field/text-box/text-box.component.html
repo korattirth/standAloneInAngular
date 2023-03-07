@@ -1,0 +1,6 @@
+<div [formGroup]="formGroup">
+  <mat-form-field class="example-full-width">
+    <mat-label>{{field.label}}</mat-label>
+    <input matInput  [formControlName]="field.name" [placeholder]="field.placeholder">
+  </mat-form-field>
+</div>

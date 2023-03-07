@@ -1,0 +1,7 @@
+<p style="text-align: center;font-size: 28px;">Dynamic Form</p>
+<form [formGroup]="dynamicForm" (ngSubmit)="onFormSubmit()" style="display: flex;flex-direction: column;align-items: center;">
+  <div *ngFor="let data of formFieldData">
+    <app-form-field [field]="data"></app-form-field>
+  </div>
+  <button type="submit">Submit</button>
+</form>

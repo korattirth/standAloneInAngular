@@ -1,0 +1,8 @@
+<div style="display : 'flex';flex-direction: column;padding: 0px 20px;min-height: 250px;justify-content: center;">
+  <mat-form-field class="example-full-width">
+    <mat-label>First name</mat-label>
+    <input matInput #title [value]="eventName" >
+  </mat-form-field>
+  <button style="margin-bottom: 10px;" mat-raised-button color="primary" [mat-dialog-close]='title.value'>Add Event</button>
+  <button mat-raised-button color="warn" mat-dialog-close='false'>Delete Event</button>
+</div>

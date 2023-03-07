@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 1,
+        "label" : "First Name",
+        "name" : "fName",
+        "fieldType" : 1,
+        "placeholder" : "Enter Your First Name",
+        "required" : true
+    },
+    {
+        "id" : 2,
+        "label" : "Last Name",
+        "name" : "lName",
+        "fieldType" : 1,
+        "placeholder" : "Enter Your Last Name",
+        "required" : true
+    },
+    {
+        "id" : 3,
+        "label" : "Email",
+        "name" : "email",
+        "fieldType" : 1,
+        "placeholder" : "Enter Your Email",
+        "required" : true
+    },
+    {
+        "id" : 4,
+        "label" : "Description",
+        "name" : "description",
+        "fieldType" : 2,
+        "placeholder" : "Write about you...",
+        "required" : true
+    },
+    {
+        "id" : 5,
+        "label" : "Date Of Birth",
+        "name" : "dob",
+        "fieldType" : 3,
+        "placeholder" : "Select Date Of Birth",
+        "required" : true
+    }
+]

@@ -1,0 +1,5 @@
+<div [ngSwitch]="field.fieldType">
+  <app-text-box *ngSwitchCase="1" [field]="field"></app-text-box>
+  <app-text-area *ngSwitchCase="2" [field]="field"></app-text-area>
+  <app-date-picker *ngSwitchCase="3" [field]="field"></app-date-picker>
+</div>
